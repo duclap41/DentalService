@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Cập nhật lần cuối: Ngày 15 tháng 9 năm 2023
+
+Thân gửi tới các người chơi,
+
+Các điều khoản dịch vụ này (sau đây gọi tắt là “Điều khoản”) quy định các điều khoản và điều kiện mà Riot Games áp dụng khi cung cấp cho người chơi quyền truy cập để sử dụng và trải nghiệm các trò chơi, ứng dụng, trang web và các dịch vụ khác của chúng tôi (sau đây gọi tắt là “Các Dịch vụ của Riot”). Riot Games là một công ty game toàn cầu có trụ sở tại Los Angeles với các văn phòng hoạt động trên khắp thế giới. Khi chúng tôi đề cập đến “Riot Games” là chúng tôi đang nói đến các công ty Riot Games chịu trách nhiệm cung cấp Các Dịch vụ của Riot trong khu vực của người chơi (xem Phần 18 bên dưới) và các Điều khoản này là một thỏa thuận giữa người chơi và các công ty đó.
+
+Vui lòng đọc kỹ các Điều khoản này và đặc biệt chú ý đến các mục sau đây:
+
+   • Giải quyết tranh chấp. Nếu bạn cư trú tại Hoa Kỳ, vui lòng đọc điều khoản về ràng buộc trọng tài và điều khoản từ bỏ các khiếu nại tập thể trong Mục A của Phần 16. Điều khoản này ảnh hưởng đến phương thức giải quyết tranh chấp giữa bạn và Riot Games. 
+
+   • Nội dung ảo. Khi người chơi nhấn vào nút để mua, kiếm được hoặc được tặng Nội dung ảo, người chơi chỉ nhận được quyền truy cập Nội dung ảo. Quyền sở hữu Nội dung ảo không được chuyển giao tới người chơi, và người chơi không được quyền chuyển giao Nội dung ảo sang cho người chơi khác. Nội dung ảo không có giá trị tiền tệ, thường là trò chơi điện tử và người chơi không được đổi Nội dung ảo lấy bất kỳ loại tiền nào trên “thế giới thực”. 
+
+   • Chính sách hoàn trả. Người chơi không có quyền thay đổi quyết định, hủy đơn hàng và được hoàn lại tiền sau khi đã truy cập hoặc tải xuống nội dung số đã mua. Tuy nhiên, có một số trường hợp ngoại lệ nằm ngoài phạm vi quy định của chính sách này, nhưng chúng tôi áp dụng một chính sách nghiêm ngặt về hoàn trả. Vui lòng tham khảo tại  đây.
+
+   • Quy tắc người chơi. Người chơi đồng ý tuân thủ Quy tắc người chơi (Phần 7). Các quy tắc này được áp dụng với các hành vi trong trò chơi và một số hành vi ngoài trò chơi trong thời gian sử dụng Các Dịch vụ của Riot.
+
+   • Pháp luật khu vực. Một số quốc gia có thẩm quyền tài phán (ví dụ như Australia và New Zealand) có thể có pháp luật cho phép trao quyền cho người chơi ngoài những gì được quy định trong Điều khoản này, tùy thuộc vào địa điểm mà bạn truy cập hoặc sử dụng Các Dịch vụ của Riot. Trong phạm vi các quy định của bất kỳ pháp luật áp dụng nào xung đột với bất kỳ phần nào trong Điều khoản này, thì các quy định đó sẽ được ưu tiên áp dụng.
+
+Chú ý tới các bậc phụ huynh!
+
+Chúng tôi có cung cấp thông tin đánh giá lứa tuổi phù hợp để tham gia trò chơi của chúng tôi trên trang web. Chúng tôi cũng khuyến khích các bậc phụ huynh giám sát các hoạt động trực tuyến của con bạn, xem lại lịch sử truy cập, và nếu có thể, giám sát các tương tác xã hội của trẻ. Để biết thêm thông tin về xếp hạng trò chơi và mô tả nội dung, vui lòng truy cập vào hệ thống đánh giá của chúng tôi. 
+
+MỤC LỤC
+
+1. TÀI KHOẢN
+
+2. CHẤM DỨT TÀI KHOẢN
+
+3. HẠN CHẾ QUYỀN  
+
+4. HÀNG HÓA ẢO, TIỀN ẢO VÀ GIAO DỊCH MUA BÁN 
+
+5. PHÍ &amp; THUẾ
+
+6. CHÍNH SÁCH VỀ ĐÓNG GÓP Ý TƯỞNG KHÔNG THEO YÊU CẦU
+
+7. QUY TẮC NGƯỜI DÙNG
+
+8. NỘI DUNG TẠO BỞI NGƯỜI DÙNG
+
+9. GIÁM SÁT &amp; CHỐNG GIAN LẬN 
+
+10. CẬP NHẬT VÀ CHỈNH SỬA
+
+11. LIÊN KẾT
+
+12. THÔNG BÁO VÀ THỦ TỤC KHIẾU NẠI BẢN QUYỀN
+
+13. ĐIỀU KHOẢN LOẠI TRỪ BẢO HÀNH 
+
+14. GIỚI HẠN TRÁCH NHIỆM
+
+15. LUẬT ĐIỀU CHỈNH
+
+16. GIẢI QUYẾT TRANH CHẤP
+
+17. ĐIỀU KHOẢN BỔ SUNG ÁP DỤNG CHO DỊCH VỤ CỦA RIOT
+
+18. CÁC PHÁP NHÂN CỦA RIOT
+
+19. ĐIỀU KHOẢN KHÁC
+
+1. TÀI KHOẢN
+
+1.1. Tôi có được tạo tài khoản và sử dụng Các Dịch vụ của Riot không? (Bạn phải là người lớn hoặc được sự cho phép của cha mẹ hoặc người giám hộ hợp pháp của bạn.)
+
+Bạn cần có một tài khoản Riot Games để truy cập vào các dịch vụ của chúng tôi. Để tạo một tài khoản và sử dụng Các Dịch vụ Riot, bạn phải: (i) là người lớn; (ii) là trẻ vị thành niên không phụ thuộc; hoặc (iii) có sự đồng ý của cha mẹ hoặc người giám hộ hợp pháp theo quy định của Điều khoản này. Trường hợp bạn không phải là người lớn hoặc trẻ vị thành niên, hoặc bạn không hiểu nội dung quy định tại Phần này, vui lòng xin ý kiến từ các vị phụ huynh hoặc người giám hộ hợp pháp của bạn để yêu cầu giúp đỡ. Khi cha mẹ hoặc người giám hộ hợp pháp của trẻ vị thành niên tạo tài khoản, các vị phụ huynh hoặc người giám hộ hợp pháp và trẻ vị thành niên chấp nhận và đồng ý bị ràng buộc bởi các Điều khoản quy định tại đây. Bạn cũng chịu trách nhiệm cho các hành vi liên quan đến việc sử dụng tài khoản và cam kết tuân thủ thủ các Điều khoản liên quan, bao gồm tất cả các giao dịch mua bán được thực hiện trên tài khoản. Bạn không được tạo hoặc sử dụng tài khoản hoặc sử dụng Các Dịch vụ của Riot thay cho cá nhân hoặc pháp nhân khác hoặc sử dụng vào mục đích thương mại.
+
+1.2. Tôi có thể tạo tài khoản bằng cách nào? (Tạo tài khoản trên trang web của chúng tôi hoặc sử dụng xác thực mạng xã hội.)
+
+Bạn có thể tạo tài khoản với thông tin đăng nhập riêng biệt trên các trang web của chúng tôi hoặc đăng nhập vào Các Dịch vụ Riot bằng tài khoản mạng xã hội hiện có (nếu có).
+
+1.3. Tôi có cần cung cấp tên thật của mình và các thông tin cá nhân khác không? (Có. Vui lòng không tạo tài khoản có tên như “Đâu phải Blitzcrank” or “Đâu phải Udyr” hoặc các nội dung tương tự.)
+
+Bạn phải luôn luôn cung cấp cho chúng tôi thông tin chính xác và đầy đủ, bao gồm cả tên thật của mình.
+
+1.4.   Tôi có rất nhiều tài khoản email khác nhau. Việc tôi sử dụng tài khoản email nào để đăng ký tài khoản có ảnh hưởng gì không? (Có. Bạn có thể bỏ lỡ các thông báo quan trọng!)
+
+Chúng tôi sẽ gửi thông báo liên quan đến tài khoản, pháp lý và dịch vụ đến địa chỉ email đã đăng ký tạo tài khoản. Các thông báo này có thể chứa các thông tin quan trọng (VD: thông báo chúng tôi sẽ chấm dứt tài khoản của bạn do bạn ngừng chơi), vì vậy, bạn nên giữ địa chỉ email mà bạn đã sử dụng để đăng ký và xác minh (khi có yêu cầu) tài khoản. Nếu bạn tạo tài khoản đăng nhập vào Các Dịch vụ Riot thông qua tài khoản mạng xã hội, email đăng ký tài khoản Riot Games của bạn sẽ là địa chỉ email được liên kết với tài khoản mạng xã hội đó.
+
+1.5. Tôi có thể chia sẻ hoặc bán tài khoản của mình hoặc thông tin đăng nhập không? (Không.)
+
+Khi bạn tạo một tài khoản với chúng tôi, bạn có trách nhiệm đăng ký một tên truy cập và mật khẩu phân biệt (sau đây gọi chung là “Thông tin đăng nhập”). Bạn đồng ý rằng:
+
+●      Không chia sẻ tài khoản hoặc thông tin đăng nhập của bạn với bất kỳ ai.
+
+●    Không được bán, chuyển nhượng hoặc cho phép bất kỳ người nào khác truy cập vào tài khoản của bạn hoặc sử dụng Thông tin đăng nhập của bạn hoặc đề nghị người khác thực hiện hành vi tương tự.
+
+●      Giữ bí mật Thông tin đăng nhập. 
+
+Bạn có trách nhiệm thông báo cho chúng tôi ngay khi phát hiện hành vi vi phạm bảo mật, bao gồm mọi hành vi truy cập tài khoản trái phép hoặc khi xảy ra mất mát, trộm cắp, sử dụng trái phép hoặc tiết lộ Thông tin đăng nhập hoặc thông tin thanh toán của bạn để Riot có thể kịp thời thực hiện các biện pháp bảo mật thích hợp. Người chơi chịu trách nhiệm cho tất cả các tổn thất (bao gồm việc mất hoặc sử dụng Nội dung ảo) trên tài khoản của bạn, khi bạn chia sẻ Thông tin đăng nhập hoặc không bảo mật tài khoản đăng nhập hoặc Thông tin đăng nhập của bạn. 
+
+1.6 Tôi có cần phải kích hoạt hệ thống xác thực đa tần tài khoản? (Chúng tôi có thể)
+
+Để đảm bảo tính toàn vẹn của Các Dịch vụ Riot và/hoặc tài khoản của bạn, chúng tôi có thể yêu cầu bạn kích hoạt hệ thống xác thực đa tần tài khoản.
+
+2. CHẤM DỨT TÀI KHOẢN
+
+2.1. Trường hợp nào tài khoản của tôi bị đình chỉ hoặc chấm dứt? (Nếu bạn vi phạm các quy tắc của Riot, áp chế sẽ được áp dụng cho tài khoản của bạn!)
+
+2.1.1. Bạn. Bạn có quyền chấm dứt tài khoản của mình bất cứ lúc nào bằng việc liên hệ với chúng tôi theo địa chỉ email support@riotgames.com.
+
+2.1.2. Riot. Chúng tôi sẽ chấm dứt hoặc đình chỉ tài khoản của bạn mà không cần thông báo cho bạn nếu chúng tôi nhận thấy rằng:
+
+1. bạn đã vi phạm bất cứ nội dung nào quy định tại Điều khoản này (bao gồm Quy tắc người chơi);
+
+1. việc chấm dứt tài khoản của bạn vì mục đích bảo vệ lợi ích tốt nhất cho cộng đồng hoặc Các Dịch vụ của Riot, hoặc phải thực hiện nhằm bảo vệ lợi ích của một bên thứ ba;
+
+1. chúng tôi đã ngừng cung cấp dịch vụ của Riot tại khu vực địa lý của bạn (thông thường Riot sẽ đăng thông báo lên trang web, ứng dụng, hoặc trò chơi của Riot trước khi Riot dự định ngừng cung cấp tính năng cốt lõi của trò chơi hoặc toàn bộ Dịch vụ của Riot tại khu vực);
+
+1. bạn đã không thanh toán đầy đủ cho Riot các phí tồn đọng (trừ trường hợp xảy ra do hành vi sơ suất hoặc sai trái cố ý từ phía Riot) hoặc Riot phải hoàn trả cho bên thứ ba do việc sử dụng trái phép khoản thanh toán được thực hiện từ tài khoản của bạn; hoặc 
+
+1. bạn đã (hoặc Riot có đủ cơ sở hợp lý để nghi ngờ rằng bạn đã) sử dụng trái phép thông tin thanh toán của người khác. 
+
+Riot có quyền sử dụng các hệ thống tự động và các công cụ máy tính hoặc các phương pháp khác mà Riot cho là cần thiết và phù hợp, để đưa ra các quyết định tương tự. Trường hợp bạn cho rằng Riot đã nhầm lẫn, vui lòng Liên hệ với Riot và cung cấp thông tin chi tiết để Riot có thể xem xét lại trường hợp của bạn, tuy nhiên Riot có toàn quyền đình chỉ tài khoản của bạn trong quá trình xem xét đó. Bạn cũng có quyền khiếu nại quyết định của Riot (xem Phần 16).
+
+2.2. Tài khoản của tôi có được Riot duy trì mãi mãi, ngay cả khi tôi ngừng sử dụng nó? (Nếu bạn ngừng sử dụng tài khoản của mình trong một khoảng thời gian rất dài, chúng tôi có thể dừng tài khoản sau khi đã thông báo tới bạn và cho bạn có quyền được kích hoạt lại tài khoản.)
+
+Nếu bạn không sử dụng tài khoản của mình trong một thời gian dài, chúng tôi có quyền áp dụng các biện pháp đối với tài khoản của bạn, bao gồm cả việc đình chỉ hoặc chấm dứt tài khoản của bạn. Nếu chúng tôi dự định áp dụng các biện pháp đó đối với tài khoản của bạn do việc không sử dụng tài khoản trong một thời gian dài, chúng tôi sẽ thông báo tới bạn trước (ví dụ: gửi email đến địa chỉ email đã đăng ký tài khoản của bạn) và cho bạn cơ hội hợp lý để tránh việc áp dụng biện pháp đó (ví dụ: xóa tài khoản của bạn). 
+
+2.3.  Điều gì sẽ xảy ra nếu Riot chấm dứt tài khoản của tôi? (Bạn sẽ không được quyền truy cập trò chơi và các giao dịch mua bán bao gồm Tiền tệ trong trò chơi và Hàng hóa ảo.)
+
+Trường hợp tài khoản của bạn bị chấm dứt, bạn sẽ không còn quyền truy cập vào tài khoản của mình, bao gồm bất kỳ dữ liệu được liên kết với tài khoản hoặc Nội dung ảo (bao gồm Tiền tệ trong trò chơi) (điều này không giới hạn hoặc ảnh hưởng tới quyền của bạn được quy định trong luật bảo vệ người tiêu dùng hoặc luật bảo vệ dữ liệu). Trường hợp Riot chấm dứt tài khoản của bạn với một lý do chính đáng (VD: khi bạn vi phạm các Điều khoản này):
+
+   • bạn sẽ không được hưởng bất kỳ khoản bồi hoàn nào và Riot không có bất kỳ trách nhiệm nào với bạn; và
+
+   • chúng tôi bảo lưu quyền chấm dứt bất kỳ tài khoản nào khác mà bạn đã tạo, cũng như quyền truy cập của bạn vào Các Dịch vụ của Riot (Riot cũng không chịu bất kỳ trách nhiệm hoặc bồi hoàn nào cho bạn). 
+
+Bạn hiểu và đồng ý rằng việc sử dụng Các Dịch vụ của Riot cũng đồng nghĩa với việc bạn chấp nhận nguy cơ tài khoản của mình có thể bị chấm dứt hoặc bị đình chỉ theo các quy định của Điều khoản này và rằng, bất kỳ khi nào bạn sử dụng Dịch vụ của Riot, bạn phải luôn nhớ trong đầu về rủi ro này và luôn luôn có hành vi phù hợp.
+
+3. HẠN CHẾ QUYỀN 
+
+3.1. Tôi có thể làm gì với Các Dịch vụ của Riot? (Bạn có thể sử dụng Các Dịch vụ của Riot cho mục đích cá nhân, phi thương mại.)
+
+Riot đồng ý cấp cho người chơi quyền sử dụng hạn chế, không độc quyền, không chuyển nhượng, có thể bị hủy ngang Các Dịch vụ của Riot (và các Nội dung ảo) vào mục đích giải trí cá nhân, phi thương mại và với điều kiện bạn đồng ý tuân thủ các Điều khoản này của Riot. Trường hợp tài khoản bị chấm dứt, mọi quyền sử dụng do Riot cấp cho người chơi đối với Các Dịch vụ của Riot và mọi Nội dung ảo sẽ bị chấm dứt ngay lập tức. Trừ khi được cho phép một cách rõ ràng trong thỏa thuận bằng văn bản được ký kết bởi hai bên, bạn không được bán, sao chép, trao đổi, cho vay, đảo ngược, dịch ngược, lấy mã nguồn, dịch, hoặc cho thuê, phân quyền bảo mật, chuyển nhượng, xuất bản, chuyển giao, hoặc bất kỳ hành vi phân phối Các Dịch vụ của Riot hoặc các tài sản trí tuệ từ trò chơi do Riot cung cấp, bao gồm nhưng không giới hạn mã máy tính hoặc Nội dung ảo. 
+
+3.2. Tôi có thể làm gì tùy thích với tài sản thuộc sở hữu trí tuệ của Riot không? (Quyền sở hữu trí tuệ của các tài sản thuộc sở hữu trí tuệ của Riot thuộc về Riot, tuy nhiên, bạn được quyền sử dụng tài sản này cho mục đích cá nhân, phi thương mại như vẽ tranh…)
+
+Riot (và các bên nhượng quyền của chúng tôi) sở hữu tất cả các quyền, quyền sở hữu và lợi ích đối với Các Dịch vụ của Riot, tất cả dữ liệu và nội dung được đăng, tạo, cung cấp hoặc các hình thức khác bằng hoặc thông qua Dịch vụ của Riot, bao gồm: tài khoản người chơi, mã máy tính, danh hiệu, đồ vật, hàng hóa, nhân vật, tên nhân vật, nhật ký trò chuyện, bản ghi, phát sóng, địa điểm, tên địa điểm, cửa hàng, hộp thư thoại, khẩu hiệu, tác phẩm nghệ thuật, đồ họa, thiết kế cấu trúc hoặc phong cảnh, hoạt hình, âm thanh, sáng tác âm nhạc, các bản thu âm, hàng hóa ảo, tiền tệ trong trò chơi, hiệu ứng âm thanh, hình ảnh nhân vật, phương thức vận hành và cách chơi (Sau đây gọi chung là “Nội dung trò chơi”). Để làm rõ, Nội dung trò chơi bao gồm các Nội dung ảo. Bạn không được tạo và đăng ký bản quyền các tác phẩm dựa trên Nội dung trò chơi hoặc Các Dịch vụ của Riot trừ khi được chúng tôi cho phép. Để biết thêm thông tin về những thông tin được phép sử dụng, vui lòng tìm hiểu Chính sách pháp lý Jibber Jabber (chính sách này sẽ được cập nhật và thay đổi theo từng thời điểm - và đối với một số khu vực nhất định mà chúng tôi có hợp tác với các bên phát hành thứ ba, các điều khoản dịch vụ của bên phát hành có thể được áp dụng thay thế các điều khoản trong chính sách này).
+
+Bạn cũng đồng ý rằng, trừ khi được Riot cho phép bằng một thỏa thuận bằng văn bản có chữ ký của Riot, bạn không được sử dụng bất kỳ nhãn hiệu, nhãn hiệu dịch vụ, tên thương mại, logo, tên miền, khẩu hiệu hoặc thiết kế kiểu dáng thương mại của Riot. Các hành vi tự ý sao chép, phân phối hoặc sửa đổi Các Dịch vụ của Riot hoặc sử dụng Dịch vụ Riot trái với các quy định của Điều khoản này đều bị cấm và việc thực hiện các hành vi như vậy có thể dẫn đến trách nhiệm dân sự và/ hoặc hình sự.
+
+4. HÀNG HÓA ẢO, TIỀN ẢO VÀ GIAO DỊCH MUA BÁN
+
+4.1.  Nội dung ảo là gì? (Nội dung ảo bao gồm nhưng không giới hạn tiền tệ trong trò chơi và hàng hóa ảo, chẳng hạn như danh hiệu nhà vô địch, màu da, biểu tượng cảm xúc, phụ kiện, v.v.)
+
+Khi sử dụng Các Dịch vụ của Riot, chúng tôi có thể tạo cho người chơi cơ hội mua một số lượng có giới hạn các nội dung ảo, ví dụ như: danh hiệu nhà vô địch, màu da, biểu tượng cảm xúc, v.v. (“Hàng hóa ảo”) và tiền tệ trong trò chơi (“Tiền tệ trong trò chơi”) được liên kết với tài khoản của bạn (Sau đây gọi chung là “Nội dung ảo”).
+
+Tiền tệ trong trò chơi chỉ có thể được sử dụng cho trò chơi cụ thể, trừ khi chúng tôi thông báo khác đi tại thời điểm thực hiện giao dịch.
+
+4.2.  Làm thế nào để tôi được “cấp phép” sử dụng Nội dung ảo? (Thông qua việc mua bán, kiếm hoặc nhận Nội dung ảo.)
+
+Chúng tôi có thể tạo cơ hội cho người chơi mua một số lượng có giới hạn Tiền ảo hoặc Hàng hóa ảo, bao gồm:
+
+1. thông qua giao dịch mua bán (VD: sử dụng thẻ tín dụng);
+
+2. kiếm được (VD: hoàn thành sứ mệnh, nhiệm vụ trò chơi); hoặc
+
+3. nhận được (VD: nhận từ người chơi khác thông qua chức năng tặng quà hoặc thông qua chế tạo như Hextech®).
+
+4.3. Tôi có thể sở hữu Nội dung ảo mà tôi đã mở khóa không? (Không được. Nội dung mà bạn đã “mở khóa”, không phải là hàng hóa ảo, mà là quyền truy cập hạn chế, không thể chuyển nhượng.)
+
+Bạn không có quyền sở hữu hoặc có quyền tài sản nào khác với các Nội dung ảo đã mở khóa, bất kể bạn có được quyền truy cập vào nó như thế nào. Nội dung ảo không có giá trị tiền tệ. Bạn không được quyền chuyển nhượng (trừ khi chúng tôi cho phép chuyển nhượng trong phạm vi chức năng của Các Dịch vụ của Riot) hoặc chuyển đổi thành tiền trong “thế giới thực”. Nội dung ảo đã mua không được trả lại, trừ khi được Riot cho phép. Vui lòng tham khảo chính sách hoàn trả hiện tại tại đây.
+
+4.4. Tôi muốn xác nhận một lần nữa: Tôi không sở hữu Nội dung ảo của mình đúng không? (“Không!” – các luật sư khẳng định chắc nịch như vậy đó.)
+
+Nội dung ảo kiếm được bởi người chơi thực sự chỉ là quyền truy cập và quyền sử dụng hạn chế Nội dung ảo trong Dịch vụ của Riot, quyền và cấp phép này là quyền cá nhân, không độc quyền, không thể chuyển nhượng, không được chuyển nhượng lại, và có thể bị hủy bỏ.
+
+Dù có được nêu khác đi trong Điều khoản này, người chơi thừa nhận và đồng ý không có quyền sở hữu hoặc quyền tài sản nào khác đối với tài khoản của mình; tất cả các quyền sở hữu và quyền tài sản đối với tài khoản của bạn thuộc sở hữu và hưởng lợi vĩnh viễn của Riot. Người chơi cũng thừa nhận và đồng ý không sở hữu tài sản hoặc quyền tài sản đối với Nội dung ảo, cho dù được sở hữu thông qua trao tặng hoặc mua bán. Thêm nữa, trừ các trường hợp Riot cố ý hoặc sơ suất để xảy ra lỗi hoặc các điều khoản của Điều khoản này quy định khác, Riot không chịu trách nhiệm cho việc phá hủy, xóa, chỉnh sửa, thay đổi, hack hoặc bất cứ thiệt hại hoặc mất mát Nội dung ảo, bao gồm việc xóa Nội dung ảo khi chấm dứt hoặc hết hạn tài khoản hoặc thay đổi hợp lý Các Dịch vụ của Riot.
+
+4.5. Nội dung ảo của tôi sẽ luôn khả dụng chứ? (Không nhất thiết, không.)
+
+Nhằm liên tục cải thiện Các Dịch vụ của Riot, nhằm phát triển trò chơi và giữ cho Các Dịch vụ của Riot an toàn, mang tính giải trí và bảo mật, chúng tôi có quyền xóa bỏ, thay thế, di chuyển, hủy bỏ, tái bản, tái định giá hoặc chuyển giao một phần hoặc toàn bộ, tại bất cứ thời điểm nào, Nội dung trò chơi, bao gồm Nội dung ảo mà không nhất thiết phải thông báo tới bạn và được miễn trừ trách nhiệm đối với người chơi. Ví dụ: Hàng hóa ảo của người chơi có thể (và sẽ) được phát triển theo thời gian nhằm nâng cao chất lượng Các Dịch vụ của Riot, hoặc để phù hợp với quy định và yêu cầu pháp lý. Trường hợp, vì lý do nào đó, Riot phải hủy bỏ hoàn toàn một số Hàng hóa ảo mà người chơi đã mua, người chơi sẽ được cung cấp hàng hóa thay thế tương đương. Riot sẽ không xóa bỏ Tiền tệ mà người chơi kiếm được mà không có sự thông báo (như thông báo trên trang web, ứng dụng hoặc trò chơi), trừ khi tài khoản của người chơi bị chấm dứt do nguyên nhân pháp lý, hoặc do người chơi yêu cầu theo Phần 2.1.1. Chúng tôi có thể thay đổi trọng lượng của Tiền tệ trong trò chơi (ví dụ, tăng giá Tiền cần thiết để mua Hàng hóa ảo, chẳng hạn như màu da). Thông thường việc thay đổi này chỉ được thực hiện theo từng bước và có sự thông báo tới người chơi (thông qua các bài đăng trên trang web, ứng dụng hoặc trò chơi) nếu thay đổi này ảnh hưởng nghiêm trọng tới Tiền tệ của bạn theo hướng tiêu cực. Chúng tôi không cung cấp hoặc đảm bảo, và từ chối mọi khiếu nại, giá trị tài sản, tiền bạc hoặc các giá trị khác được gán cho dữ liệu trên máy chủ do Riot vận hành hoặc kiểm soát, bao gồm Nội dung trò chơi hoặc Nội dung ảo được gán cho tài khoản của người chơi. Các nội dung trò chơi hoặc Nội dung ảo nếu được Riot cho phép bán hoặc chuyển giao, chỉ được phép thực hiện bán hoặc chuyển giao thông qua các dịch vụ do Riot phê duyệt hoặc cung cấp, nếu có.
+
+5. PHÍ &amp; THUẾ
+
+5.1. Mọi dịch vụ của Riot đều miễn phí? (Không.)
+
+Một số loại hình của Dịch vụ của Riot có thể được tính phí với người chơi, và người chơi đồng ý cung cấp thông tin thanh toán chính xác và đầy đủ cho Riot hoặc nhà cung cấp dịch vụ thanh toán thứ ba được ủy quyền của Riot. Người chơi cũng đồng ý thanh toán các khoản phí và thuế áp dụng phát sinh từ tài khoản của mình. Riot có quyền điều chỉnh giá Các Dịch vụ của Riot tại bất cứ thời điểm nào. Việc thay đổi này có thể ảnh hưởng tới trọng lượng của Tiền tệ trong trò chơi, tuy nhiên việc thay đổi này sẽ được triển khai theo từng bậc. Mọi phí và lệ phí phải trả sẽ tuân thủ theo quy định về thanh toán có hiệu lực vào ngày thanh toán hoặc ngày đến hạn của khoản phải trả. Phương thức thanh toán và phương thức xuất hóa đơn có thể được thay đổi, điều chỉnh hoặc bổ sung tùy từng thời điểm, và việc thay đổi đó sẽ có hiệu lực ngay sau khi Điều khoản thay đổi được đăng tải lên trang web của Riot hoặc trong ứng dụng hoặc trò chơi. Trừ các trường hợp Riot sơ suất hoặc cố tình không thực hiện trách nhiệm của mình, nếu người chơi chậm thanh toán các khoản nợ hoặc Riot phải hoàn trả tiền cho một người chơi khác do việc sử dụng trái phép khoản thanh toán được thực hiện từ tài khoản của bạn, Riot có thể đình chỉ hoặc chấm dứt tài khoản của bạn. Vui lòng xem Phần 2 (Chấm dứt tài khoản) để biết thêm chi tiết.
+
+Tùy thuộc vào pháp luật hiện hành, mọi khoản phí và lệ phí áp dụng với các dịch vụ tính phí (bao gồm Tiền tệ trong trò chơi) là khoản thanh toán trước và sẽ không được hoàn trả toàn bộ hoặc một phần, trừ khi được quy định khác trong Điều khoản này. Trừ các trường hợp Riot sơ suất hay cố tình không thực hiện trách nhiệm của mình, hoặc nội dung trong Điều khoản này quy định khác, người chơi phải chịu hoàn toàn trách nhiệm cho mọi khoản phí phát sinh từ tài khoản của mình, bao gồm cả các khoản phí trái phép.
+
+5.2. Trách nhiệm của tôi với Tiền tệ trong trò chơi là gì? (Thanh toán các khoản thuế phát sinh, xác minh tất cả giao dịch với Riot là chính xác, v.v.)
+
+Người chơi hoàn toàn chịu trách nhiệm thanh toán mọi khoản thuế hiện hành liên quan đến việc mua, sử dụng hoặc truy cập Tiền tệ trong trò chơi. Tiền tệ trong trò chơi có thể được bán, phát hành bởi Riot theo gói và giá của Tiền tệ có thể thay đổi tùy thuộc vào số tiền người chơi đồng ý trả và địa điểm người chơi thực hiện giao dịch. Tùy từng trường hợp khi xét thấy cần thiết, Riot có quyền theo quyết định hợp lý của mình (hoặc theo quy định của pháp luật), giới hạn tổng số Tiền tệ có thể mua được cho bất cứ trò chơi nào hoặc tổng số Tiền tệ có thể được giữ tối đa trong tài khoản của người chơi. Ngoài ra, giá trị và tính khả dụng của Tiền tệ trong trò chơi và Hàng hóa ảo có thể được thay đổi tùy từng thời điểm. Riot có thể hạn chế số lượng Tiền tệ trong trò chơi mà người chơi có thể mua và/ hoặc sử dụng dựa trên địa điểm của người chơi, do các quy định của trò chơi được áp dụng khác nhau tại các địa điểm khác nhau.
+
+Người chơi nên kiểm tra số lượng tiền tệ đã được nạp vào hoặc đã bị trừ đi đối với mỗi giao dịch. Vui lòng thông báo ngay cho chúng tôi nếu phát hiện lỗi xảy ra với giao dịch của mình. Riot sẽ xem xét khiếu nại của bạn, theo đó, chúng tôi có thể yêu cầu một số thông tin bổ sung để xác minh giao dịch.
+
+6. CHÍNH SÁCH VỀ ĐÓNG GÓP Ý TƯỞNG KHÔNG THEO YÊU CẦU
+
+6.1. Tôi có thể gửi ý tưởng để cải thiện Trò chơi của Riot không? (Vui lòng không. Nếu bạn vẫn muốn gửi nó, Riot hoàn toàn có quyền sử dụng nó mãi mãi.)
+
+Chúng tôi đánh giá cao phản hồi của bạn với Dịch vụ của Riot, tuy nhiên, vui lòng không gửi bất kỳ ý tưởng sáng tạo, đề xuất hoặc tài liệu như vậy cho chúng tôi (“Sau đây gọi chung là “Ý tưởng không theo yêu cầu”). Chúng tôi có thể tự do sử dụng những Ý tưởng không theo yêu cầu mà bạn cung cấp này. Chính sách này nhằm tránh những hiểu lầm hoặc tranh chấp có nguy cơ xảy ra khi Các Dịch vụ của Riot có vẻ giống với những Ý tưởng không theo yêu cầu được gửi cho Riot từ người chơi.
+
+Người chơi không có bất kỳ quyền lợi pháp lý nào đối với những Ý tưởng không theo yêu cầu mà người chơi khăng khăng chủ đích gửi cho Riot; một khi người chơi đã gửi các ý tưởng như vậy, các thông tin được gửi tới Riot sẽ được toàn quyền sử dụng bởi Riot mà không cần phải thanh toán cho người chơi bất kỳ khoản chi phí nào.
+
+Về mặt pháp lý, điều này có nghĩa là nếu bạn gửi ý tưởng cho chúng tôi, bạn cấp cho chúng tôi toàn quyền, vĩnh viễn, không thể hủy ngang, có thể chuyển giao, chuyển nhượng, không độc quyền và miễn phí bản quyền để sử dụng, tái sản xuất, phân phối, điều chỉnh, sửa đổi, dịch thuật, tạo các tác phẩm phái sinh dựa trên ý tưởng đó cũng như công khai, thông cáo, thực hiện tác tác nghiệp kỹ thuật số, hiện thực hóa ý tưởng, chào bán và nhập khẩu các ý tưởng đó, bao gồm bản quyền, nhãn hiệu, bí mật thương mại, bằng sáng chế, thiết kế, quyền công nghiệp và tất cả các quyền sở hữu trí tuệ và quyền tài sản liên quan đến chúng, trên các phương tiện truyền thông đã được biết đến hoặc sẽ được phát triển trong tương lai cho bất kỳ mục đích nào, thông qua thương mại hay cách khác để thông báo ý tưởng đó cho người khác mà không cần phải bồi thường cho bạn. Trong phạm vi cần thiết, người chơi cũng đồng ý thực hiện, chuyển giao tất cả các tài liệu, hành động cần thiết để đảm bảo rằng quyền sử dụng ý tưởng theo quy định bên trên là hợp lệ, có hiệu lực và có thể thi hành; đồng thời, người chơi từ bỏ và đồng ý không tranh chấp các quyền nêu trên trong phạm vi tối đa được pháp luật cho phép theo luật của nước sở tại.
+
+7. QUY TẮC NGƯỜI CHƠI
+
+7.1. Tôi có thể khiêu khích, kích động, đe dọa, hoặc quấy rối người khác khi sử dụng Các Dịch vụ của Riot không? (Không. Nếu bạn làm như vậy, chúng tôi có thể thực hiện các hành động cần thiết, chẳng hạn như cấm tài khoản của bạn.)
+
+Khi sử dụng Dịch vụ của Riot, người chơi có trách nhiệm tuân thủ tất cả các luật, quy tắc và quy định hiện hành của nơi mà người chơi sinh sống. Người chơi cũng cần tuân thủ các chính sách về hành vi và ứng xử phù hợp được đăng tải trên các trang web, ứng dụng và trong trò chơi của chúng tôi tại từng thời điểm cũng như các quy tắc ứng xử được liệt kê dưới đây (Sau đây gọi chung là “Quy tắc người chơi”). Quy tắc người chơi được đăng tải trên các trang web, ứng dụng và trò chơi hoặc được quy định tại Phần này không có nghĩa đã bao gồm tất cả, và Riot bảo lưu quyền điều chỉnh các quy tắc này, cũng như có quyền áp dụng các biện pháp kỷ luật thích hợp bao gồm việc cấm tạm thời, đình chỉ hoặc chấm dứt và xóa tài khoản để bảo vệ tính toàn vẹn và tinh thần của Các Dịch vụ của Riot, bất kể hành vi đó có được liệt kê trong Quy tắc người chơi hay không.
+
+Ví dụ về các hành vi vi phạm cần phải áp dụng các hình thức kỷ luật:
+
+1. Mạo danh cá nhân, doanh nghiệp hoặc tổ chức khác, bao gồm mạo danh nhân viên của Riot Games, hoặc giao tiếp theo cách khiến người khác hiểu là bạn là người đại diện của Riot Games;
+
+2. Đăng công khai thông tin cá nhân của bạn, nhân viên của Riot Games hoặc người chơi khác;
+
+3. Quấy rối, theo dõi, hoặc đe dọa người chơi khác hoặc nhân viên của Riot Games;
+
+4. Xóa, thay đổi hoặc che giấu bản quyền, nhãn hiệu, bằng sáng chế hoặc thông báo quyền sở hữu nào khác của Riot Games liên quan Các Dịch vụ của Riot. Người chơi không được quyền truyền tải nội dung vi phạm hoặc xâm phạm quyền của người khác, bao gồm các bằng sáng chế, nhãn hiệu, bí mật thương mại, bản quyền, công khai quyền cá nhân hoặc các quyền khác của người khác;
+
+5. Truyền tải hoặc truyền đạt các nội dung mà một cách hợp lý chúng tôi cho rằng có thể gây công kích cho người chơi khác, bao gồm việc sử dụng ngôn ngữ bất hợp pháp, gây hại, hoặc đe dọa, lạm dụng, quấy rối, phỉ báng, sử dụng từ ngữ thô tục, tục tĩu, khiêu dâm, quấy rối tình dục hoặc phân biệt chủng tộc hoặc các ngôn ngữ có thể bị phản đối;
+
+6. Chuyển hoặc tạo điều kiện để chuyển các nội dung chứa vi-rút, dữ liệu mã hóa, trojan, đánh cắp bàn phím, sâu máy tính, bom hẹn giờ, hủy bỏ dữ liệu hoặc các chương trình lập trình máy tính khác có nguy cơ gây thiệt hại hoặc thực tế phát sinh thiệt hại, can thiệp máy tính, khai thác thông tin trái phép, hoặc chiếm đoạt hệ thống, dữ liệu hoặc thông tin cá nhân của người khác;
+
+7. Tránh, bỏ qua, loại bỏ, hủy kích hoạt, làm suy yếu, giải mã, hoặc phá vỡ các biện pháp bảo mật do Riot hoặc bên được Riot ủy quyền thực hiện để bảo vệ hoặc kiểm soát quyền truy cập vào Các Dịch vụ của Riot hoặc bất cứ nội dung nào trong đó;
+
+8. Spam tin nhắn, dù vì mục đích cá nhân hay thương mại, phá đám, làm gián đoạn cuộc trò chuyện với các bài đăng lặp đi lặp lại;
+
+9. Tham gia vào bất kỳ hành động mà một cách hợp lý chúng tôi cho rằng để lừa gạt người chơi khác, kể cả lừa đảo hoặc tiểu xảo công nghệ;
+
+10. Sử dụng bất kỳ chương trình trái phép nào của bên thứ ba, bao gồm mod, hack, lừa đảo, mã độc, bot, tự động gõ, tự động thao tác với Các Dịch vụ của Riot theo bất kỳ cách nào, cho bất kỳ mục đích nào, bao gồm các chương trình trái phép thực hiện nhằm chặn, giả lập hoặc chuyển hướng liên lạc trong Các Dịch vụ của Riot và các chương trình thu thập thông tin về Các Dịch vụ của Riot trái phép thông qua việc đọc các vùng bộ nhớ được sử dụng bởi Dịch vụ của Riot để lưu trữ thông tin;
+
+11. Truy cập hoặc cố gắng truy cập các phần của Dịch vụ của Riot không được công bố công khai;
+
+12. Chọn một tài khoản hoặc tên người chơi có thể gây nhầm lẫn với một tổ chức hoặc người có liên quan tới Riot Games, chứa thông tin nhận dạng cá nhân hoặc gây công kích, phỉ báng, sử dụng từ ngữ thô tục, tục tĩu, quấy rối tình dục, phân biệt chủng tộc hoặc tương tự khác. Người chơi không được cố tình viết sai lỗi chính tả hoặc cách viết thay thế nhằm tránh quy định nêu trên trong việc đặt tên, ví dụ trong việc đặt tên nhân vật. Riot Games có quyền sửa đổi bất kỳ tên nào mà một cách hợp lý chúng tôi cho rằng đã vi phạm quy định này mà không cần thông báo cho người chơi, bên cạnh đó, các biện pháp kỷ luật có thể được áp dụng, bao gồm việc chấm dứt tài khoản áp dụng đối với các vi phạm lặp đi lặp lại;
+
+13. Không tham gia, đăng xuất hoặc thoát khỏi trò chơi trong khi đang chơi trò chơi ở chế độ live (chế độ trực tiếp). Riot Games có thể giám sát hành vi này thông qua thời gian đăng nhập và ban hành lệnh cấm tạm thời khi người chơi đã thoát khỏi trò chơi giữa chừng quá nhiều lần. Thời hạn của lệnh cấm sẽ tăng theo thời gian khi người chơi tiếp tục vi phạm;
+
+14. Chơi trên một tài khoản của người chơi khác hoặc tham gia vào hoạt động nhằm mục đích tăng hệ số, cấp bậc của tài khoản chính;
+
+15. Xúi giục hoặc khuyến khích người khác vi phạm Quy tắc người chơi hoặc Điều khoản này; hoặc
+
+16. Sử dụng Các Dịch vụ của Riot cho mục đích kinh doanh mà không có sự đồng ý bằng văn bản của Riot hoặc sau khi chúng tôi yêu cầu bạn ngừng sử dụng Các Dịch vụ của Riot.
+
+8. NỘI DUNG TẠO BỞI NGƯỜI DÙNG
+
+8.1. Tôi có phải chịu trách nhiệm về nội dung mà tôi đã đăng trên/trong Các Dịch vụ của Riot không? (Có, và chúng tôi có thể sử dụng những gì bạn đã đăng.)
+
+Bên cạnh các Ý tưởng không theo yêu cầu (mà Riot đã đề cập trong Phần 6 bên trên), người chơi hoàn toàn chịu trách nhiệm cho các thông tin liên lạc khác, tên tài khoản, hình ảnh, âm thanh hoặc các tài liệu khác, cũng như các thông tin mà mình đã khởi tạo, đăng tải, sử dụng hoặc chuyển cho người khác với hoặc thông qua Các Dịch vụ của Riot (“Nội dung của bạn”).
+
+Bạn chỉ nên tải lên hoặc truyền tải Nội dung của bạn khi bạn đồng ý rằng:
+
+1. Kể từ thời điểm đăng tải hoặc truyền tải Nội dung của bạn, bạn đồng ý cấp cho Riot toàn quyền, vĩnh viễn, không thể hủy ngang, có thể chuyển giao, không độc quyền và miễn phí bản quyền để sử dụng, tái bản, phân phối, điều chỉnh, dịch, tạo các tác phẩm phái sinh dựa trên, hoặc công khai thông tin, hiển thị công khai, thực hiện các nghiệp vụ kỹ thuật số, triển khai, thực hiện và nhập nội dung của mình, bao gồm tất cả bản quyền, quyền công khai, nhãn hiệu, bí mật thương hiệu, bằng sáng chế, quyền công nghiệp và các quyền sở hữu trí tuệ và quyền tài sản khác liên quan phục vụ cho việc cung cấp Các Dịch vụ của Riot mà không phải trả bất kỳ khoản bồi thường nào cho bạn;
+
+2. Trong phạm vi tối đa được cho phép theo luật của nước sở tại, bạn đồng ý từ bỏ quyền nhân thân mà bạn có thể có đối với các Nội dung của bạn liên quan đến việc Riot Games sử dụng các Nội dung của bạn này. Trường hợp luật pháp địa phương không cho phép từ bỏ các quyền nhân thân, thay vào đó, người chơi đồng ý cấp cho Riot Games quyền sử dụng Nội dung của bạn và các yếu tố liên quan đến Nội dung của bạn có hoặc không có bút danh của bạn, cũng như tự do chỉnh sửa Nội dung của bạn.
+
+3. Người chơi tuyên bố, đảm bảo và đồng ý rằng các Nội dung của bạn không phải chịu bất kỳ ràng buộc nào, cho dù là liên quan tới điều khoản bảo mật, quy kết hay các ràng buộc tương tự khác đối với Riot Games và Riot Games không chịu bất kỳ trách nhiệm nào cho việc sử dụng hoặc tiết lộ Nội dung của bạn.
+
+4. Người chơi cũng tuyên bố, đảm bảo và đồng ý rằng Nội dung của bạn không vi phạm bất kỳ quyền của bên thứ ba nào.
+
+9. GIÁM SÁT &amp; CHỐNG GIAN LẬN 
+
+9.1. Riot có giám sát tôi khi sử dụng Các Dịch vụ của Riot không? (Có. Vui lòng tìm hiểu thêm trong Thông báo bảo mật để biết thêm thông tin.)
+
+Chúng tôi có thể chủ động giám sát việc sử dụng Các Dịch vụ của Riot (nhưng không có trách nhiệm phải làm như vậy), cả trên máy chủ của chúng tôi và trên máy tính hoặc thiết bị của bạn cho nhiều mục đích khác nhau, bao gồm việc ngăn chặn gian lận và hack, loại trừ hoặc giảm thiểu hành vi gây rối từ người chơi, cải thiện Các Dịch vụ của Riot. Vui lòng đọc Thông báo bảo mật để biết thêm chi tiết cách thức chúng tôi thu thập và xử lý thông tin liên quan tới việc bạn sử dụng Các Dịch vụ của Riot.
+
+9.2. Riot có chạy các chương trình trên thiết bị của tôi khi tôi không sử dụng Các Dịch vụ của Riot không? (Chúng tôi có thể làm như vậy, chỉ nhằm mục đích chống gian lận.)
+
+Để ngăn chặn gian lận và hack, chúng tôi có thể yêu cầu bạn cài đặt phần mềm chống gian lận. Phần mềm này có thể chạy trong nền thiết bị của bạn.
+
+10. CẬP NHẬT VÀ CHỈNH SỬA
+
+10.1. Những điều khoản này sẽ thay đổi trong tương lai? (Đúng.)
+
+Chúng tôi có thể (và có lẽ sẽ) cập nhật các Điều khoản này trong tương lai để phù hợp với sự phát triển của luật pháp và Các Dịch vụ của Riot. Khi đó, người chơi sẽ được thông báo về các điều khoản được hủy bỏ và thay thế. Người chơi có quyền xem xét, cân nhắc về việc chấp thuận các thỏa thuận và điều khoản sửa đổi này. Nếu đồng ý với thỏa thuận mới, người chơi sẽ tiếp tục được sử dụng Các Dịch vụ của Riot. Nếu từ chối các thay đổi của điều khoản, người chơi sẽ không thể tiếp tục sử dụng Các Dịch vụ của Riot.
+
+10.2. Có phải Các Dịch vụ của Riot sẽ luôn không thay đổi? (Không. Giống như Kha’zix, các dịch vụ sẽ được phát triển.)
+
+Nhằm liên tục cải thiện Các Dịch vụ của Riot, phát triển trò chơi và giữ cho Dịch vụ của Riot luôn an toàn, mang tính giải trí và bảo mật, người chơi đồng ý rằng Riot có quyền thay đổi, sửa đổi, cập nhật, tạm dừng, giảm sức mạnh các thông số (“nerf”) hoặc hạn chế quyền truy cập của người chơi hoặc vào bất kỳ tính năng nào hoặc phần nào của Các Dịch vụ của Riot, bao gồm cả Hàng hóa ảo (ví dụ: Riot có thể thay đổi một số tính năng của Hàng hóa ảo vì lý do pháp lý hoặc quy định nhằm cải thiện trải nghiệm trò chơi) và có thể yêu cầu người chơi tải xuống và cài đặt các phần mềm và các bản cập nhật cho các phần mềm cần thiết để hỗ trợ Các Dịch vụ Riot bất cứ lúc nào mà không phải chịu trách nhiệm với người chơi. Người chơi cũng hiểu và đồng ý rằng mọi thay đổi hoặc cập nhật Các Dịch vụ của Riot có thể dẫn tới sự thay đổi về thông số kỹ thuật của hệ thống máy tính cần thiết để có thể chơi trò chơi, và trong trường hợp đó, người chơi phải tự mua thêm phần mềm hoặc phần cứng bổ sung để có thể truy cập và chơi các trò chơi của Riot. Người chơi hiểu và đồng ý rằng Riot có thể sử dụng phần mềm tự động cập nhật các trò chơi, vá lỗi mà không cần phải thông báo cho người chơi.
+
+11. LIÊN KẾT
+
+11.1. Còn các liên kết trong Các Dịch vụ của Riot thì sao? Các liên kết này có an toàn không? (Giống với hành trình tìm kiếm phép thuật, bạn có thể bắt gặp những điều nguy hiểm. Hãy thận trọng trong quá trình tiếp cận nó!)
+
+Các Dịch vụ Riot có thể chứa các liên kết đến các trang web được điều hành bởi các bên khác. Một lần nữa, chúng tôi nhấn mạnh chúng tôi không sở hữu hoặc vận hành các trang web khác. Chúng tôi cung cấp các liên kết đó để thuận tiện cho người chơi, hoặc người chơi khác đăng tải các liên kết đó dưới dạng nội dung do người chơi cung cấp. Người chơi tự chịu trách nhiệm khi truy cập vào các liên kết này và các trang web bên ngoài. Riot không thể kiểm soát các trang web được liên kết và Riot không chịu trách nhiệm về nội dung có sẵn ở đó. Chúng tôi không chứng thực thông tin hoặc tài liệu trên các trang web đó và không chịu mọi trách nhiệm liên quan đến việc người chơi truy cập vào các trang web được liên kết đó.
+
+12. THÔNG BÁO VÀ THỦ TỤC KHIẾU NẠI VI PHẠM BẢN QUYỀN
+
+12.1. Tôi nên làm gì nếu ai đó vi phạm tác phẩm có bản quyền của tôi trong Các Dịch vụ của Riot? (Gửi cho Riot thông báo gỡ bản quyền.)
+
+Riot Games tôn trọng luật bản quyền và hy vọng người chơi của mình cũng như vậy. Riot có chính sách chấm dứt tài khoản khi người chơi vi phạm hoặc được cho là vi phạm quyền sở hữu trí tuệ. Riot Games sẽ xử lý nhanh chóng các khiếu nại vi phạm bản quyền khi sử dụng trang web của Riot Games, hoặc các mạng trực tuyến khác có thể truy cập thông qua thiết bị di động hoặc các thiết bị khác (“Các trang web”) được báo cáo cho Bộ phận quản lý bản quyền của Riot Games, các ví dụ có thể được nêu dưới đây.
+
+Trường hợp bạn là chủ sở hữu bản quyền, được ủy quyền thay mặt cho chủ sở hữu, hoặc được ủy quyền theo chính sách về quyền độc quyền hoặc quyền bản quyền, vui lòng báo cáo các vi phạm bản quyền diễn ra trên hoặc thông qua Trang web của Riot, bằng một thông báo bao gồm các thông tin sau:
+
+1. Xác định tác phẩm có bản quyền được cho là bị vi phạm hoặc - nếu nhiều tác phẩm có bản quyền bị vi phạm theo quy định này – vui lòng cung cấp danh sách các tác phẩm có bản quyền mà bạn cho là đã bị vi phạm.
+
+2. Xác định các tài liệu mà bạn cho là đang vi phạm (hoặc là đối tượng của hành vi vi phạm) và sẽ bị xóa hoặc bị vô hiệu hóa truy cập cùng các thông tin đủ để xác định vị trí của tài liệu, và nếu có thể, cung cấp đường dẫn được hiển thị trên (các) trang web có thể tìm thấy tài liệu đó.
+
+3. Cung cấp địa chỉ gửi thư, số điện thoại của bạn và, nếu có, địa chỉ email.
+
+4. Thể hiện hai tuyên bố sau trong phần Thông báo:
+1. “Tôi xin tuyên bố rằng tôi có cơ sở để xác định rằng tài liệu được bảo vệ bởi luật bản quyền đã bị sử dụng mà không có sự cho phép bởi chủ sở hữu bản quyền, đại lý hoặc luật pháp (Vd: dưới hình thức sử dụng được cho phép bởi pháp luật).”
+2. “Tôi xin cam đoan rằng thông tin được nêu trong Thông báo này là chính xác và [, phải chịu hình phạt về việc khai man,]* rằng tôi là chủ sở hữu hợp pháp hoặc được ủy quyền bởi chủ sở hữu hợp pháp, được ủy quyền theo chính sách về quyền độc quyền hoặc quyền bản quyền của tài liệu có dấu hiệu bị vi phạm bản quyền nêu trên.”
+
+5. Cung cấp tên pháp lý đầy đủ và chữ ký điện tử hoặc chữ ký sống của bạn.
+
+* Bạn chỉ cần thêm dòng này nếu bạn sống ở Hoa Kỳ.
+
+Gửi thông báo này (“Thông báo”),sau khi đã hoàn thành các tiêu chí nêu trên, tới Bộ phận quản lý bản quyền của Riot đến địa chỉ của đơn vị Riot Games chịu trách nhiệm quản lý trong khu vực mà bạn sinh sống (xem Phần 18). Vui lòng thêm dòng: “Tới: Phòng quản lý bản quyền” (không phải “Tới: Phòng pháp chế”) để đảm bảo thông báo nhanh chóng được gửi tới đúng người. Bạn cũng có thể gửi Thông báo thông qua địa chỉ thư điện tử: copyright@riotgames.com. Địa chỉ này chỉ dành cho việc nhận các thông báo nhằm gỡ xuống bản quyền và không dành cho các thông báo hoặc yêu cầu khác về Các Dịch vụ của Riot. Vì lý do bảo mật, địa chỉ email sẽ không chấp nhận các tệp đính kèm không được chấp nhận. Theo đó, mọi Thông báo được gửi bằng điện tử kèm theo tệp đính kèm sẽ không được nhận hoặc xử lý.
+
+Xin lưu ý rằng các Thông báo là thông báo pháp lý, Riot Games có thể cung cấp thông báo tới các bên tham gia tranh chấp hoặc cho bên thứ ba, theo quyết định của Riot hoặc theo yêu cầu của pháp luật. Khi nhận được thông báo, Riot Games sẽ thực hiện các nghiệp vụ cần thiết theo quyết định của Riot Games, bao gồm cả việc xóa các thông tin đã được đăng tải trên trang web.
+
+13. TUYÊN BỐ MIỄN TRÁCH NHIỆM PHÁP LÝ
+
+13.1. Riot có hình thức đảm bảo nào về Các Dịch vụ của Riot không? (Điều này phụ thuộc vào vị trí địa lý của bạn – hãy chuẩn bị nghe các luật sư nói tiếp đây!)
+
+Bạn chịu trách nhiệm cho việc cài đặt và sử dụng, và các kết quả thu được từ Các Dịch vụ của Riot (bất kể vị trí địa lý của bạn).
+
+Ngoài ra, nếu bạn ở Bắc, Trung hoặc Nam Mỹ :
+
+Các Dịch vụ của Riot được cung cấp cho bạn theo “trạng thái hiện tại” và “sẵn có” mà không có bất kỳ đảm bảo hoặc cam kết nào dưới bất kỳ hình thức nào. Người chơi chịu mọi trách nhiệm cho việc sử dụng Các Dịch vụ của Riot. Trong phạm vi tối đa được pháp luật cho phép, Riot Games loại trừ tất cả các bảo đảm, dù là rõ ràng hay ngụ ý, mà có thể áp dụng cho Các Dịch vụ của Riot, bao gồm các đảm bảo về quyền sở hữu, không vi phạm, tính thương mại, tính phù hợp cho một mục đích cụ thể, hay các đảm bảo có thể phát sinh từ quá trình giao dịch, quá trình thực hiện hoặc sử dụng hay đảm bảo về tính chính xác, độ tin cậy hoặc chất lượng nội dung hoặc thông tin có trong Các Dịch vụ của Riot.
+
+14. GIỚI HẠN TRÁCH NHIỆM
+
+14.1. Trách nhiệm của Riot theo các Điều khoản này có giới hạn không? (Có.)
+
+Trong phạm vi pháp luật cho phép, toàn bộ trách nhiệm pháp lý của Riot đối với người chơi (dù là do vi phạm hợp đồng này, do sơ suất hay do lý do nào khác) đối với các tổn thất, tổn hại hoặc thiệt hại mà người chơi phải chịu liên quan đến việc tải xuống, sử dụng và/hoặc truy cập của người chơi tới Các Dịch vụ của Riot được giới hạn trong tổng số tiền mà người chơi đã trả cho Riot trong vòng mười hai (12) tháng trước thời điểm sự cố phát sinh.
+
+Chúng tôi chỉ cung cấp Các Dịch vụ của Riot trong khu vực của mình và cho cá nhân sử dụng. Chúng tôi không chịu trách nhiệm cho các tổn thất kinh doanh (như tổn thất lợi nhuận, tổn thất kinh doanh, gián đoạn kinh doanh, mất uy tín với khách hàng hoặc mất cơ hội kinh doanh). Chúng tôi cũng không có trách nhiệm đối với các thiệt hại phát sinh do người chơi không cài đặt các bản cập nhật do Riot cung cấp hoặc không duy trì các thông số kỹ thuật hệ thống cần thiết. Nói một cách khác, chúng tôi không chịu trách nhiệm cho: (i) các thiệt hại không lường trước được tại thời điểm người chơi chấp thuận các Điều khoản này; hoặc (ii) thiệt hại mà cả hai bên đều hiểu sẽ xảy ra chỉ do trường hợp đặc biệt cụ thể của người chơi tồn tại tại thời điểm người chơi đồng ý chấp thuận Điều khoản này (bao gồm các thiệt hại gián tiếp).
+
+Mặc dù chúng tôi đã đề cập ở đâu đó trong Điều khoản này, CHÚNG TÔI KHÔNG LOẠI TRỪ HOẶC GIỚI HẠN TRÁCH NHIỆM CỦA CHÚNG TÔI ĐỐI VỚI NGƯỜI CHƠI NẾU TRÁI VỚI PHÁP LUẬT, bao gồm trách nhiệm của chúng tôi đối với: (i) tử vong hoặc thương tích gây ra do sơ suất của chúng tôi; (ii) hành vi gian lận hoặc sự viện dẫn sai của chúng tôi; (iii) hành vi cố ý hoặc cẩu thả; (iv) các thiệt hại phát sinh do vi phạm nghĩa vụ do cẩu thả của các điều khoản cần thiết khi thực hiện hợp đồng bởi Riot Games (“Nhiệm vụ cần thiết”), với điều kiện đó là những điều quan trọng hoặc có thể dự đoán trước; (v) đối với bấy kỳ đảm bảo nào mà người chơi được nhận từ chúng tôi; hoặc (vi) đối với trách nhiệm pháp lý được quy định đối với sản phẩm của Riot theo pháp luật của một quốc gia.
+
+Người chơi được hưởng các quyền khác theo quy định của pháp luật của nước sở tại ngoài những điều được nêu bên trên.
+
+15. LUẬT ĐIỀU CHỈNH
+
+15.1. Luật nào được áp dụng cho Điều khoản này hoặc cho các tranh chấp phát sinh? (Điều này phụ thuộc vào nơi bạn sống và đơn vị Riot Games nào cung cấp Dịch vụ của Riot cho bạn.)
+
+Vui lòng tham khảo thông tin bên dưới để xác định luật áp dụng cho việc bạn sử dụng Các Dịch vụ của Riot. Ngoài việc lựa chọn điều khoản pháp luật này, người chơi còn có thể được hưởng lợi ích từ những quyền hoặc biện pháp khắc phục bắt buộc bổ sung khác do pháp luật của nước sở tại quy định ngoài những gì được quy định trong Điều khoản này. Không có quy định nào trong Điều khoản này ảnh hưởng hoặc giới hạn các quyền đó.
+
+Đối với người chơi tại khu vực Bắc, Trung hoặc Nam Mỹ (trừ Brazil)
+
+Điều khoản này và các hành động phát sinh từ hoặc liên quan đến Điều khoản này được điều chỉnh bởi Luật trọng tài liên bang về “Giải quyết tranh chấp” (Mục 16), và luật của tiểu bang California, mà không xét tới điều khoản về xung đột pháp luật. Trừ khi được quy định một cách rõ ràng khác trong Phần 16 “Giải quyết tranh chấp”, thẩm quyền riêng biệt đối với tất cả các tranh chấp giữa người chơi và Riot Games không được yêu cầu phân xử theo hình thức trọng tài sẽ là tòa án liên bang và tiểu bang ở Hạt Los Angeles, California, người chơi và Riot Games từ bỏ quyền phản đối quyền tài phán và địa điểm tại các tòa án đó.
+
+Đối với người chơi tại Hàn Quốc
+
+Điều khoản này và bất kỳ hành động nào phát sinh từ hoặc liên quan đến Điều khoản này sẽ được điều chỉnh bởi luật pháp Hàn Quốc.
+
+Đối với người chơi tại Nhật Bản
+
+Điều khoản này và bất kỳ hành động nào phát sinh từ hoặc liên quan đến Điều khoản này sẽ được điều chỉnh bởi luật pháp Nhật Bản.
+
+Đối với người chơi tại Singapore, Philippines, Thailand, Malaysia, Indonesia và Cam-pu-chia (“Đông Nam Á”)
+
+Điều khoản này và bất kỳ hành động nào phát sinh từ hoặc liên quan đến Điều khoản này sẽ được điều chỉnh bởi luật pháp Singapore.
+
+Đối với người chơi tại châu Âu, Anh, Brazil hoặc các nước không được liệt kê trong Phần 15
+
+Điều khoản này và bất kỳ hành động nào phát sinh từ hoặc liên quan đến Điều khoản này sẽ được điều chỉnh bởi, và giải thích theo luật pháp luật của Ireland, không xét đến nguyên tắc xung đột pháp luật.
+
+16. GIẢI QUYẾT TRANH CHẤP
+
+16.1. Tôi có một vấn đề mà không thể giải quyết với Riot. Tôi cần làm gì để có thể giải quyết nó? (Điều này tùy thuộc vào nơi bạn sống)
+
+Đối với người chơi sống tại:
+
+   • Bắc, Trung hoặc Nam Mỹ (trừ Brazil), bạn cần liên hệ và giải quyết với Công ty Riot Games Inc., bạn cần đọc Muc A (Điều khoản giải quyết tranh chấp chung) và Muc B của Phần này;
+
+   • Hàn Quốc, bạn cần liên hệ và giải quyết với Công ty Riot Games Korea Limited, bạn cần đọc Muc A (Điều khoản giải quyết tranh chấp chung) và Muc C của Phần này;
+
+   • Nhật Bản , bạn cần liên hệ và giải quyết với Công ty Riot Games, LLC,bạn cần đọc Muc A (Điều khoản giải quyết tranh chấp chung) và Muc D của Phần này;
+
+   • Đông Nam Á, bạn cần liên hệ và giải quyết với Công ty Riot Games Services PTE. LTD., bạn cần đọc Muc A (Điều khoản giải quyết tranh chấp chung) và Muc E của Phần này; hoặc
+
+   • Vùng kinh tế Châu Âu, Anh, Brazil hoặc các nước khác, bạn cần liên hệ và giải quyết với Công ty Riot Games Limited, bạn cần đọc Muc A (Điều khoản giải quyết tranh chấp chung). Đối với vùng kinh tế Châu Âu, Muc F sẽ được áp dụng.
+
+Mục A: Điều khoản giải quyết tranh chấp chung (bất kể khu vực địa lý)
+
+16.2. Khi chúng ta có tranh chấp, chúng ta có nên kiện tụng không? (Không, chúng ta nên thương lượng trước.)
+
+Tranh chấp sẽ tốn kém và mất thời gian cho cả hai bên (nhờ sự can thiệp của luật pháp không phải là cách nhanh nhất để giải quyết tranh chấp). Để nhanh chóng giải quyết và giảm chi phí cho tranh chấp hoặc khiếu nại liên quan đến các Điều khoản này (“Khiếu nại”), bạn và Riot đồng ý trước tiên sẽ cố gắng thương lượng trước tất cả Khiếu nại trong ít nhất ba mươi (30) ngày, trừ khi được quy định khác đi trong Phần 16.1 ở trên).
+
+Mục B: Giải quyết tranh chấp tại Bắc, Trung hoặc Nam Mỹ (trừ Brazil)
+
+16.3. Trọng tài là gì? (Một phương thức giải quyết khiếu nại mang tính riêng tư. Không có phòng xử án hoặc bồi thẩm đoàn.)
+
+Trọng tài là một quy trình giải quyết tranh chấp thay thế, trong đó các bên đồng ý lựa chọn bên thứ ba trung lập quyết định giải quyết tranh chấp chứ không phải bởi một thẩm phán hoặc bồi thẩm đoàn. Trọng tài cho phép các bên giải quyết tranh chấp của họ một cách riêng tư và không phải ra tòa. Trọng tài tuân theo các quy tắc tố tụng khác với tòa án và phải chịu sự xem xét rất hạn chế của các tòa án.
+
+16.4. Trọng tài cũng sẽ đưa ra các hình thức giải quyết tương đương với một tòa án chứ? (Đúng.)
+
+Trọng tài viên sẽ có thẩm quyền áp dụng hình thức giải quyết hợp pháp hoặc công bằng đối với người dùng với tư cách cá nhân như áp dụng tại tòa án có thẩm quyền, nhưng không phải là hình thức giải quyết có thể ảnh hưởng đến những người không phải là các bên. Quyết định của trọng tài viên (“Phán quyết”) sẽ bao gồm một tuyên bố bằng văn bản nêu rõ biện pháp xử lý từng yêu cầu và đưa ra một tuyên bố ngắn gọn bằng văn bản về những phát hiện và kết luận quan trọng mà Phán quyết dựa vào. Phán quyết sẽ có hiệu lực cuối cùng và mang tính ràng buộc với các bên, có thể được xác nhận bởi một tòa án có thẩm quyền tài phán, và sau đó được thi hành như mọi quyết định hoặc bản án của tòa án.
+
+16.5. Những khiếu nại nào chúng ta có thể đệ trình lên trọng tài? (Tất cả mọi khiếu nại nhưng trừ khiếu nại nhỏ và đủ điều kiện và một số tình huống khẩn cấp nhất định, biện pháp tạm thời.)
+
+Mọi tranh chấp, khiếu nại hoặc tranh cãi phát sinh từ hoặc liên quan đến Điều khoản này hoặc Các Dịch vụ của Riot sẽ được giải quyết toàn bộ thông bằng trọng tài riêng biệt và mang tính ràng buộc, thay vì tòa án, ngoại trừ các khiếu nại nhỏ, có thể giải quyết trực tiếp thông qua tòa tiểu tụng; và các bên có thể yêu cầu tòa án áp dụng biện pháp khẩn cấp tạm thời trước khi chỉ định trọng tài viên theo quy định tại Phần 16.12 dưới đây. Điều này có nghĩa là, trừ các khiếu nại nhỏ và các tình huống khẩn cấp được nêu trong Phần 16.12 dưới đây, bạn và Riot Games đồng ý từ bỏ quyền đưa các khiếu nại đó ra tòa, bao gồm quyền xét xử bồi thẩm đoàn.
+
+16.6. Tôi có thể đưa ra một yêu cầu hay khiếu nại tập thể không? (Không. Xin lỗi vì lại nói như các luật sư nhưng điều này quan trọng lắm.)
+
+Bạn và Riot Games đồng ý rằng mỗi người trong chúng ta chỉ có thể khiếu nại bên kia với tư cách cá nhân chứ không phải với tư cách là nguyên đơn hoặc thành viên của một nhóm trong bất kỳ nhóm có chủ đích nào hoặc hành động hoặc thủ tục tố tụng mang tính đại diện. Trừ khi bạn và Riot Games có thỏa thuận khác, trọng tài viên không được quyền kết hợp hoặc gộp các khiếu nại với một hoặc nhiều người hoặc bên khác, và không được quyền giải quyết khiếu nại cho một nhóm hợp nhất hoặc đại diện một tập thể nào. Cũng vậy, trọng tài viên chỉ có thể ban hành một biện pháp giải quyết khiếu nại (bao gồm biện pháp bồi thường bằng tiền, có tính chất mệnh lệnh và xử lý) cho một bên là cá nhân đang tìm kiếm một biện pháp xử lý khiếu nại và chỉ trong phạm vi cần thiết đưa ra biện pháp xử lý mà (các) khiếu nại cá nhân của bên đó đòi hỏi cần phải có.
+
+16.7. Trọng tài sẽ quyết định những vấn đề gì? (Mọi thứ.)
+
+Trọng tài sẽ quyết định tất cả các vấn đề tranh chấp giữa bạn và Riot Games, bao gồm các vấn đề có thể khiếu kiện trọng tài và sự tồn tại, phạm vi, tính hợp pháp và hiệu lực thi hành của các điều khoản trọng tài này.
+
+16.8. Ai sẽ điều hành trọng tài? (AAA, áp dụng “Quy tắc trọng tài người tiêu dùng.”)
+
+Việc phân xử trọng tài được quản lý bởi AAA áp dụng theo Quy tắc trọng tài người tiêu dùng (““Quy tắc của AAA”). Trọng tài viên duy nhất sẽ được lựa chọn theo quy tắc này. Phán quyết của trọng tài có thể được tiếp nhận bởi các tòa án có thẩm quyền tài phán.
+
+16.9. Làm thế nào để bắt đầu trọng tài? (Một trong hai bên gửi cho bên còn lại và AAA một thông báo bằng văn bản nêu vấn đề và yêu cầu cần được giải quyết.)
+
+Một trong hai bên có thể bắt đầu một thủ tục tố tụng trọng tài. Bên bắt đầu thực hiện thủ tục tố tụng trọng tài được gọi là “người yêu cầu”. Một bên muốn bắt đầu thủ tục tố tụng trọng tài phải gửi một Văn bản Yêu cầu Trọng tài cho AAA và thông báo cho bên kia. AAA cung cấp mẫu Yêu cầu trọng tài trên trang web của mình.
+
+16.10. Ai sẽ trả phí cho trọng tài? (Riot trả phí trọng tài cho các khiếu nại nhỏ, người chơi trả phí trọng tài cho các khiếu nại lớn hơn. Chúng tôi sẽ không bắt bạn phải trả phí trọng tài, trừ khi yêu cầu của bạn là phù phiếm.)
+
+Khoản phí nộp đơn, quản lý và phí trọng tài sẽ được điều chỉnh bởi Quy định của AAA. Chúng tôi sẽ thanh toán các khoản phí và lệ phí nộp đơn, quản lý và phí trọng tài nếu tranh chấp của bạn có giá trị dưới 10.000 đô la, trừ khi trọng tài viên nhận định tranh chấp của bạn là không có cơ sở. Nếu chúng tôi thắng, chúng tôi sẽ thanh toán mọi khoản phí cho luật sư của chúng tôi và không yêu cầu bạn phải trả lại chúng. Nếu bạn thắng, bạn sẽ được hưởng một khoản tiền phí luật sư theo quy định của pháp luật hiện hành.
+
+16.11. Trọng tài sẽ diễn ra ở đâu và như thế nào? (Qua điện thoại, bằng văn bản hoặc tại nơi bạn sinh sống – theo lựa chọn của bạn.)
+
+Bạn có thể chọn tiến hành phân xử trọng tài qua điện thoại, dựa trên các bản đệ trình, trực tiếp tại khu vực bạn sinh sống hoặc tại một địa điểm khác được thống nhất bởi hai bên.
+
+16.12. Thế còn vi phạm sở hữu trí tuệ? (Một trong hai bên có thể đệ đơn kiện lên tòa án nhằm tìm kiếm một “biện pháp” khẩn cấp tạm thời.)
+
+Một trong hai bên được quyền tìm kiếm các biện pháp tạm thời, bao gồm biện pháp khẩn cấp tạm thời hoặc biện pháp tương tự theo quy định của AAA hoặc từ một tòa án có thẩm quyền tài phán ở Hạt Los Angeles County, California, khi cần thiết nhằm bảo vệ quyền và lợi ích của bên đó trước hành vi xâm phạm hoặc chiếm dụng tài sản thuộc quyền sở hữu trí tuệ của bên đó trong lúc đang chờ việc chỉ định trọng tài viên.
+
+16.13. Chúng ta có thể nói với bạn bè và viết lên Twitter các vấn đề về trọng tài không? (Không.)
+
+Bạn và Riot Games đồng ý rằng mọi tranh chấp, khiếu nại hoặc tranh cãi được đệ trình lên trọng tài và tất cả các thủ tục liên quan, bao gồm mọi thỏa thuận giải quyết sẽ được bảo mật. Tuy nhiên, bên thắng kiện được quyền nộp Phán quyết trọng tài cho tòa án có thẩm quyền tài phán để Phán quyết được xác nhận trong một quyết định hoặc bản án của tòa án.
+
+16.14. Điều gì xảy ra nếu một phần của phán quyết không thể được thi hành? (Phần còn lại giữ nguyên giá trị - những phán quyết có thể thực thi theo quy định pháp luật hiện hành sẽ được cố gắng giữ nguyên giá trị.)
+
+Bạn và Riot Games đồng ý rằng nếu một phần của phán quyết trọng tài được tòa án tuyên bố là không thể thực thi, phần đó sẽ bị hủy bỏ và các phần còn lại của phán quyết được giữ nguyên hiệu lực thực thi. Tuy nhiên, nếu phán quyết không thể thực thi theo các trường hợp được liệt kê tại Phần 16.6 bên trên (tiêu đề “Tôi có thể đưa ra một yêu cầu hay khiếu nại tập thể hay không?”), hoặc một phần của mục này bị đánh giá là không thể thực thi, toàn bộ phán quyết trọng tài (VD: tất cả các phần của Mục A của Phần 16) sẽ bị tách rời khỏi Điều khoản này và tất cả các khiếu nại giữa bạn và Riot Games sau đó sẽ được toàn quyền quyết định bởi một tòa án có thẩm quyền tại Hạt Los Angeles, California theo các quy định có liên quan tại Phần 15 bên trên.
+
+Mục C: Giải quyết tranh chấp tại Hàn Quốc
+
+Các khiếu nại phát sinh từ Điều khoản hoặc Dịch vụ của Riot này sẽ được giải quyết bởi tòa án có thẩm quyền theo Bộ luật tố tụng dân sự Hàn Quốc.
+
+Mục D: Giải quyết tranh chấp tại Nhật Bản
+
+Tòa án Quận Tokyo có quyền tài phán riêng biệt để xét xử phiên sơ thẩm các tranh chấp phát sinh giữa Riot Games và bạn từ hoặc liên quan đến Điều khoản này hoặc Dịch vụ của Riot.
+
+Mục E: Giải quyết tranh chấp tại Đông Nam Á
+
+Các tranh chấp, tranh cãi, khiếu nại, hoặc các dạng tranh chấp khác, phát sinh từ hoặc liên quan đến các Điều khoản này hoặc Các Dịch vụ của Riot sẽ được giải quyết chung thẩm bởi Trung tâm trọng tài quốc tế Singapore (“SIAC”) theo các quy định của quy tắc trọng tài của Trung tâm trọng tài quốc tế Singapore (“Quy tắc SIAC”) có hiệu lực tại thời điểm phát sinh tranh chấp, mà các quy tắc đó, bằng cách tham chiếu tại đây, được xem là đã được đưa vào nội dung của Phần này. Trọng tài sẽ được tổ chức tại Singapore. Hội đồng trọng tài sẽ bao gồm một (1) trọng tài viên, ngôn ngữ sử dụng trong trọng tài sẽ là tiếng Anh.
+
+Mục F: Giải quyết tranh chấp tại Khu vực kinh tế Châu Âu
+
+16.15. Tôi có các lựa chọn khác để giải quyết tranh chấp không?
+
+Đối với cư dân tại Khu vực kinh tế Châu Âu, bạn có thể chuyển tranh chấp đến Bộ phận giải quyết tranh chấp trực tuyến được điều hành bởi Ủy ban châu Âu (vui lòng tham khảo tại ec.europa.eu/consumers/odr).
+
+Trong vòng một năm sau khi gửi khiếu nại cho chúng tôi, bạn được quyền giải quyết khiếu nại của mình với Riot Games thông qua thủ tục hòa giải. Điều này không giới hạn quyền theo luật định của bạn để nộp đơn kiện tới tòa án.
+
+17. ĐIỀU KHOẢN BỔ SUNG ÁP DỤNG CHO DỊCH VỤ CỦA RIOT
+
+17.1. Điều khoản chung
+
+Người chơi được quyền truy cập vào Các Dịch vụ của Riot do Riot cung cấp từ các cửa hàng hoặc nền tảng được ủy quyền của một số bên thứ ba (nhà cung cấp thứ ba được ủy quyền của bất cứ cửa hàng, hệ thống trò chơi, bảng điều khiển hoặc bất kỳ nền tảng nào khác được định nghĩa là “Bên thứ ba”), khi người chơi đồng ý với các quy định sau đây:
+
+   • Các Điều khoản này là một thỏa thuận giữa Riot và bạn, không phải là thỏa thuận giữa bạn và Bên thứ ba. Vì giữa Riot Games và Bên thứ Ba, Riot Games chỉ chịu trách nhiệm với các dịch vụ do Riot cung cấp.
+
+   • Bên thứ ba không có quyền cung cấp bất kỳ dịch vụ bảo trì và hỗ trợ nào cho Các Dịch vụ của Riot.
+
+   • Bên thứ ba không chịu trách nhiệm giải quyết bất kỳ tranh chấp hay khiếu nại nào của người chơi liên quan đến Các Dịch vụ của Riot hay tới việc sở hữu và sử dụng Các Dịch vụ của Riot.
+
+   • Trường hợp một bên thứ ba tuyên bố một phần hoặc toàn bộ Dịch vụ của Riot vi phạm quyền sở hữu trí tuệ của một bên khác, như là giữa Bên thứ ba đó với Riot Games, bên thứ ba không được quyền điều tra, bảo vệ, giải quyết các khiếu nại đó.
+
+   • Bên thứ ba và các công ty con của mình là những người thụ hưởng bên thứ ba của các Điều khoản này vì nó liên quan trực tiếp tới giấy phép của bạn với Các Dịch vụ của Riot. Chỉ khi nào bạn đồng ý với các Điều khoản này, Bên thứ ba mới có quyền (và sẽ được coi là đã chấp thuận quyền) để thực thi Phần 17 và Phần 19.9 này để trở thành bên thứ ba thụ hưởng giấy phép truy cập và sử dụng Dịch vụ của Riot.
+
+   • Bạn cũng phải cam kết tuân thủ các điều khoản dịch vụ và giấy phép của bên thứ ba hiện hành khi truy cập hoặc sử dụng nền tảng của bên thứ ba, bao gồm mọi điều khoản bổ sung được áp dụng khi bạn tải xuống, truyền, truy cập hoặc sử dụng trò chơi của Riot, Nội dung ảo hoặc Dịch vụ của Riot.
+
+18. BỘ PHẬN PHÁP LÝ CỦA RIOT
+
+Đối với người chơi sống tại Bắc, Trung hoặc Nam Mỹ (Trừ Brazil):
+
+Riot Games, Inc.
+Người nhận: Bộ phận pháp lý
+12333 West Olympic Blvd.
+Los Angeles, CA 90064
+Hoa Kỳ
+
+Đối với người chơi sống tại Hàn Quốc:
+
+Công ty Riot Games Korea, Ltd. 
+Người nhận: Bộ phận pháp lý
+Tầng 30, Tòa nhà Parnas, 521 Teheran-ro, Gangnam-gu
+Seoul, Hàn Quốc
+
+Đối với người chơi sống tại Nhật Bản:
+
+Công ty Riot Games, LLC  
+Người nhận: Bộ phận pháp lý 
+Tầng 34, tòa nhà Roppongi Hills Mori 
+6-10-1, Roppongi, Minato-ku, 
+Tokyo 106-6134
+Nhật Bản
+
+Đối với người chơi sống tại khu vực Đông Nam Á:
+
+Công ty Riot Games Services PTE. LTD. 
+Người nhận: Bộ phận pháp lý
+51 Bras Basah Rd, #05-01, S5008 &amp; S5009,
+Singapore 189554
+
+Đối với người chơi sống tại Khu vực kinh tế châu Âu, Anh hoặc Brazil:
+
+Riot Games Ltd.
+Người nhận: Bộ phận pháp lý 
+PO Box 11989
+Dublin 2
+Ireland 
+
+19. ĐIỀU KHOẢN KHÁC
+
+19.1. Tôi có thể làm gì nếu có thắc mắc về Dịch vụ của Riot? (Cho tới ngày chúng tôi có thể mở Trung tâm dịch vụ khách hàng qua điện thoại, bạn có thể gửi email cho chúng tôi.)
+
+Nếu có bất kỳ thắc mắc nào liên quan tới Các Dịch vụ của Riot hoặc nếu bạn muốn liên hệ với Riot vì bất kỳ lý do nào, vui lòng liên hệ với bộ phận hỗ trợ của Riot Games thông qua địa chỉ support@riotgames.com.
+
+19.2. Một trong hai bên có thể chuyển giao các Điều khoản này không? (Không. Chỉ chúng tôi có thể làm điều đó.)
+
+Riot Games có thể chuyển giao toàn bộ hoặc một phần quyền và nghĩa vụ của mình quy định tại Điều khoản này cho bất kỳ cá nhân hoặc tổ chức nào vào bất kỳ lúc nào mà không cần có sự đồng ý của bạn. Bạn không được chuyển giao quyền của mình quy định tại Điều khoản này mà không có sự đồng ý trước bằng văn bản của Riot Games, và mọi chuyển giao quyền trái phép sẽ không có giá trị.
+
+19.3. Đây có phải là toàn bộ thỏa thuận giữa chúng ta không? (Phải, bao gồm cả những chính sách quan trọng khác mà chúng tôi đã đề cập trước đó.)
+
+Các Điều khoản này thể hiện toàn bộ thỏa thuận giữa người chơi và Riot Games về Các Dịch vụ của Riot, và thay thế mọi thỏa thuận trước đó hoặc hiện hành giữa bạn và Riot Games. Các Điều khoản này sẽ cùng tồn tại và sẽ không thay thế bất kỳ chính sách nào khác của Riot được tham chiếu trong các Điều khoản này. Bạn và Riot đồng ý rằng chúng ta không dựa vào và không áp dụng các biện pháp khắc phục cho bất kỳ điều khoản, điều kiện, tuyên bố hoặc đảm bảo nào mà không được quy định rõ ràng tại các Điều khoản này.
+
+19.4. Điều gì xảy ra nếu một thảm họa tự nhiên gây trở ngại cho Trò chơi? (Riot sẽ không chịu trách nhiệm.)
+
+Riot sẽ không chịu trách nhiệm cho sự chậm trễ hoặc không thực hiện, bao gồm việc không thực hiện các quy định tại Điều khoản này xảy ra do các trường hợp không thể lường trước hoặc các nguyên nhân nằm ngoài sự kiểm soát của Riot Games như: (a) hack, tấn công mạng, hỏng/mất dữ liệu (khi chúng tôi đã thực hiện đầy đủ các bước cần thiết để tránh sự kiện này xảy ra); hoặc (b) thiên tai, chiến tranh, khủng bố, đe dọa đánh bom, bạo loạn, cấm vận, hành vi của chính quyền, biện pháp dân sự hoặc quân sự, hỏa hoạn, lũ lụt, tai nạn, đình công, hoặc tình trạng thiếu hụt phương tiện giao thông, thiếu nhiên liệu, năng lượng, lực lượng lao động hoặc nguyên vật liệu.
+
+19.5. Những điều khoản này có đồng nghĩa với việc chúng ta là đối tác? (Không phải theo khía cạnh pháp lý, không.)
+
+Bạn đồng ý rằng không có mối quan hệ liên doanh, hợp tác hay tuyển dụng lao động hoặc thỏa thuận đại lý nào tồn tại giữa bạn và Riot Games được phát sinh từ Điều khoản này hoặc từ việc bạn sử dụng Các Dịch vụ Riot.
+
+19.6. Nếu tôi vi phạm các Điều khoản này mà Riot không áp dụng hình thức xử lý nào trong một thời gian dài, điều đó có nghĩa là tôi sẽ không bị truy cứu trách nhiệm? (Không. Chúng tôi bảo lưu tất cả các quyền của mình.)
+
+Việc Riot Games không thực thi bất kỳ hình thức xử lý nào trong Điều khoản này sẽ không được hiểu là Riot Games từ bỏ hoặc sẽ từ bỏ điều khoản đó, cũng như không ảnh hưởng đến quyền của các bên liên quan trong việc thực thi điều khoản đó. Việc Riot Games bỏ qua không thực hiện một hình thức xử lý hoặc một quy định trong điều khoản này không đồng nghĩa với việc điều khoản đó sẽ tiếp tục được bỏ qua trong tương lai.
+
+19.7. Biện pháp khắc phục nào sẽ dành cho Riot Games nếu tôi vi phạm các Điều khoản này?
+
+Bạn đồng ý rằng Riot Games sẽ chịu tổn hại không thể khắc phục được nếu các biện pháp xử lý cần thiết không được thực thi khi bạn vi phạm Điều khoản này (ví dụ nêu ở Phần 3.2). Chúng tôi có thể dựa vào Phần này để yêu cầu tòa án áp dụng biện pháp khẩn cấp tạm thời hoặc yêu cầu bạn thực hiện các biện pháp cụ thể.
+
+19.8. Nếu tôi cần gửi thông báo pháp lý cho Riot, tôi có thể gửi tới đâu? (Chúng tôi hi vọng bạn sẽ không bao giờ phải gửi cho chúng tôi một thông báo pháp lý, nhưng nếu bắt buộc bạn phải thực hiện thì….)
+
+Trừ khi được quy định rõ ràng khác trong Điều khoản này, tất cả các thông báo do bạn cung cấp hoặc được yêu cầu cung cấp theo các Điều khoản này cần phải được thực hiện bằng văn bản và gửi đến đơn vị cung cấp Các Dịch vụ của Riot cho bạn. Vui lòng xem Phần 18 để biết thêm chi tiết địa chỉ của các công ty của Riot có liên quan.
+
+19.9. Tôi có thể chơi Trò chơi nếu chính phủ Hoa Kỳ nghĩ rằng tôi là một kẻ khủng bố hoặc tôi sống ở một quốc gia bị cấm vận không? (Không.)
+
+Phần lớn Các Dịch vụ của Riot được phát triển ở Hoa Kỳ, do đó bạn không thể sử dụng chúng nếu: (1) Văn phòng kiểm soát tài sản nước ngoài của Bộ tài chính Hoa Kỳ liệt bạn hoặc quốc gia nơi bạn sinh sống vào danh sách bị chặn; (2) Cục Công nghiệp và An ninh của Bộ thương mại Hoa Kỳ liệt bạn vào danh sách bị từ chối hoặc danh sách những người bên có liên quan; hoặc (3) bạn có tên trong các danh sách tương tự được ban hành bởi một cơ quan hoặc một bộ phận chính thức của chính phủ Hoa Kỳ. Bạn đảm bảo và tuyên bố rằng bạn không bị kiểm soát đất nước hoặc là công dân của một quốc gia bị cấm vận.
+
+19.10. Nếu một phần của Điều khoản này bị vô hiệu, điều gì sẽ xảy ra với phần còn lại? (Như đã nói, các Điều khoản này có thể bị coi là vô hiệu, nhưng những điều khoản khác vẫn tiếp tục có hiệu lực.)
+
+Trừ khi có quy định khác trong Điều khoản này, nếu bất kỳ phần nào trong Điều khoản này bị coi là vô hiệu hoặc không thể thực thi được vì bất kỳ lý do nào, thì phần đó được xem là được tách rời khỏi Điều khoản này và phần còn lại của Điều khoản này sẽ vẫn tiếp tục có đầy đủ hiệu lực thực thi.
+
+19.11. Những tiêu đề ngớ ngẩn có bị ràng buộc pháp lý không? (Không. Những tiêu đề này chỉ là cách Luật sư của chúng tôi cố gắng khiến Điều khoản này trở nên hấp dẫn và hài hước hơn. Các luật sư nhận thấy việc đặt tiêu đề như vậy rất thu hút và hài hước.)
+
+Các tiêu đề và cách diễn đạt trong Điều khoản này chỉ đơn thuần phục vụ cho mục đích cung cấp thông tin và giải trí. Chúng không có bất kỳ hiệu lực pháp lý nào.
+
+19.12. Thỏa thuận này kéo dài bao lâu? (Trong thời gian bạn sử dụng Dịch vụ của Riot hoặc cho tới khi tài khoản của bạn bị chấm dứt. Tuy nhiên, một số điều khoản sẽ được tiếp tục thực thi ngay cả khi bạn ngừng sử dụng Dịch vụ của Riot.)
+
+Các Điều khoản này có hiệu lực kể từ ngày đầu tiên bạn chấp thuận và kéo dài suốt thời gian sử dụng Dịch vụ hoặc duy trì tài khoản trên Các Dịch vụ của Riot. Tuy nhiên, Phần 2.3, 3.2, 4.3, 4.4, 4.5, 5.1, 6, 8, và 13-18 sẽ tồn tại hiệu lực ngay khi Điều khoản này được chấm dứt.
+
+19.13. Khi chúng ta nói “bao gồm” trong Điều khoản này, điều đó có giới hạn hay không? (Không.)
+
+Trong mọi trường hợp, “bao gồm” có nghĩa là “bao gồm nhưng không giới hạn.”
+
+BẠN CHẤP NHẬN VÀ ĐỒNG Ý ĐÃ ĐỌC VÀ HIỂU CÁC QUY ĐỊNH TRONG ĐIỀU KHOẢN NÀY, BẰNG VIỆC ẤN NÚT “ĐỒNG Ý” BÊN DƯỚI ĐÂY HOẶC BẮT ĐẦU SỬ DỤNG CÁC DỊCH VỤ CỦA RIOT, BẠN ĐỒNG Ý VÀ CHẤP THUẬN CÁC QUY ĐỊNH ĐƯỢC NÊU TRONG THỎA THUẬN NÀY.</value>
+  </data>
+</root>
