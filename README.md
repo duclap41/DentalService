@@ -7,11 +7,11 @@
 
 # USER INTERFACE
 * Home Page
-![Homepage Image](./demo/main.png)
+![Homepage Image](./Demo/main.png)
 * Booking
-![Booking Image](./demo/booking.png)
+![Booking Image](./Demo/booking.png)
 * User Profile
-![Userprofile Image](./demo/profile.png)
+![Userprofile Image](./Demo/profile.png)
 
 # HOW TO RUN
 Suggestion: using **Visual Studio**, installed .NET desktop development
