@@ -2,8 +2,8 @@
 <h1 align="center"><b>Dental Service</b></h1>
 
 # TABLE OF CONTENT
-* [User interface]
-* [How to run]
+* [User interface](#user-interface)
+* [How to run](#how-to-run)
 
 # USER INTERFACE
 * Home Page
