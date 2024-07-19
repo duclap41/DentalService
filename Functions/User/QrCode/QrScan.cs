@@ -12,7 +12,6 @@ using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
 using DentalService.Booking.Booking_Page7;
-using QRCoder;
 using ZXing; 
 
 namespace DentalService.QrCode
